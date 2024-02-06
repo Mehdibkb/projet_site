@@ -7,6 +7,8 @@ const changeboss = async () => {
 
         let data = await fetch(requeststr);
         console.log(data);
+        let reponse = data.json();
+        console.log(reponse);
     
 }
 
