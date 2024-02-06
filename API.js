@@ -8,7 +8,10 @@ const changeboss = async () => {
 
         let data = await fetch(requeststr);
         let reponse = await data.json();
-        console.log(reponse);
+        console.log(reponse.name);
+        test = document.createElement('p');
+        test.textContent = reponse.name;
+        document.body.insertBefore(test, button.nextElementSibling);
     
 }
 
