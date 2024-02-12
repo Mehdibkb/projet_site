@@ -8,3 +8,10 @@ a {
     text-decoration: none;
     color:black;
 }
+.grandmoonstre {
+    display: flex;
+}
+
+.petitmoonstre {
+    display: flex;
+}
