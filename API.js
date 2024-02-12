@@ -20,7 +20,6 @@ function petitmonstre(data) {
     const monstreName = monstre_Nom.name;
     const heading = document.createElement("li");
     heading.innerHTML = monstreName;
-    monstreDiv.className = 'content';
     monstreDiv.appendChild(heading);
   }
   }
@@ -33,7 +32,6 @@ function petitmonstre(data) {
     const monstreName = monstre_Nom.name;
     const heading = document.createElement("li");
     heading.innerHTML = monstreName;
-    monstreDiv2.className = 'content';
     monstreDiv2.appendChild(heading);
   }
   }
