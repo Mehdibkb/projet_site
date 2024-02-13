@@ -13,6 +13,8 @@
         width: 100vw;
         background-image: url("./image/photo_accueil_2.jpg");
         background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     }
     .navbar {
         position: absolute ;
