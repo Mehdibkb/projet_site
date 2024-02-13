@@ -45,7 +45,12 @@
         .navbar {
             padding: 0px;
         }
+        .navlinks{
+        top: 0;
+        left: 0;
+        position: absolute;
     }
+}
 /* .grandmoonstre {
     display: flex;
     flex-direction: column;
