@@ -4,6 +4,10 @@
     text-decoration: none;
     list-style: none;
     }
+    body {
+        font-family: 'poppins';
+    
+    }
 p {
     font-style:italic;
     font-family:times,serif;
