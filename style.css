@@ -37,6 +37,10 @@
     .navbar .navlinks ul li {
         margin: 0 25px;
     }
+    .navbar .navlinks ul li.active a {
+        color: black;
+        font-weight: 700;
+    }
 /* .grandmoonstre {
     display: flex;
     flex-direction: column;
