@@ -35,3 +35,15 @@
 //     monstreDiv2.appendChild(heading);
 //   }
 //   }
+const menuburger = document.querySelector(".menuburger");
+const navlinks = document.querySelector(".navlinks");
+
+navlinks.addEventListener('click', (event) => {
+  event.stopPropagation(); // Arrête la propagation de l'événement
+  navlinks.classList.toggle('mobile-menu');
+});
+
+menuburger.addEventListener('click', (event) => {
+  event.stopPropagation(); // Arrête la propagation de l'événement
+  navlinks.classList.toggle('mobile-menu');
+});
