@@ -63,6 +63,9 @@
         color: black;
         font-size: 1.5rem;
     }
+    .navbar .navlinks ul li {
+        margin: 25px 0;
+    }
 }
 /* .grandmoonstre {
     display: flex;
