@@ -56,11 +56,16 @@
         top: 0;
         left: 0;
         position: absolute;
+        background-color: rgb(255, 255, 255 , 0.20);
+        backdrop-filter: blur(7px);
         height: 100vh;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .navbar a {
+        color: black;
     }
     .navlinks ul {
         display: flex;
