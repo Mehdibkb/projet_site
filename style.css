@@ -31,6 +31,12 @@
         font-size: 2rem;
         font-weight: bold;
     }
+    .navbar .navlinks ul {
+        display: flex;
+    }
+    .navbar .navlinks ul li {
+        margin: 0 25px;
+    }
 /* .grandmoonstre {
     display: flex;
     flex-direction: column;
