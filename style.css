@@ -24,6 +24,13 @@
         box-sizing: border-box;
     
     }
+    .navbar a {
+        color: whitesmoke;
+    }
+    .navbar .logo {
+        font-size: 2rem;
+        font-weight: bold;
+    }
 /* .grandmoonstre {
     display: flex;
     flex-direction: column;
