@@ -8,16 +8,6 @@
         font-family: 'poppins';
     
     }
-p {
-    font-style:italic;
-    font-family:times,serif;
-
-    }
-
-a {
-    text-decoration: none;
-    color:black;
-}
 .grandmoonstre {
     display: flex;
     flex-direction: column;
