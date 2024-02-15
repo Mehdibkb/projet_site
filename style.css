@@ -52,6 +52,11 @@
         .navbar {
             padding: 0px;
         }
+        .navbar .logo {
+            position: absolute;
+            top : 50px;
+            left : 50px;
+        }
         .navlinks{
         top: 0;
         left: 0;
