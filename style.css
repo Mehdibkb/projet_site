@@ -31,10 +31,13 @@
         top: 0;
         z-index: 0;
         background: #1abc9c;
-        width:100px;
+        width:122px;
     }
     .navbar a {
         color: white;
+        text-transform: uppercase;
+        position: relative;
+        z-index : 1;
     }
     .navbar .logo {
         font-size: 2rem;
