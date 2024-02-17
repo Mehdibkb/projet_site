@@ -25,6 +25,14 @@
         background: #222;
     
     }
+    .navbar .animationnavbar{
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: 0;
+        background: #1abc9c;
+        width:100px;
+    }
     .navbar a {
         color: white;
     }
