@@ -25,7 +25,14 @@
         background: #222;
     
     }
-    .navbar .animationnavbar{
+    .navbar .navlinks ul li a {
+        color: white;
+        transition: all 0.3s ease 0s;
+    }
+    .navbar .navlinks ul li a:hover {
+        color: greenyellow;
+    }
+    /* .navbar .animationnavbar{
         position: absolute;
         height: 100%;
         top: 0;
@@ -33,9 +40,12 @@
         background: #1abc9c;
         width:122px;
         border-radius: 8px;
-    }
+    } */
+    /* .navlinks ul li:nth-child(1) a{
+        width: 100px;
+    } */
     .navbar a {
-        color: white;
+        /* color: white; */
         text-transform: uppercase;
         position: relative;
         z-index : 1;
@@ -43,6 +53,7 @@
     .navbar .logo {
         font-size: 2rem;
         font-weight: bold;
+        color: white;
     }
     .navbar .menuburger {
         display: none;
@@ -58,7 +69,7 @@
         margin: 0 25px;
     }
     .navbar .navlinks ul li.active a {
-        color: white;
+        /* color: white; */
         font-weight: 700;
     }
     @media screen and (max-width: 700px) {
@@ -71,10 +82,20 @@
         .navbar {
             padding: 0px;
         }
+        /* .navbar .animationnavbar{
+            position: absolute;
+            height: 0%;
+            top: 0;
+            z-index: 0;
+            background: #1abc9c;
+            width:122px;
+            border-radius: 8px;
+        } */
         .navbar .logo {
             position: absolute;
             top : 50px;
             left : 50px;
+            color: black;
         }
         .navlinks{
         top: 0;
@@ -103,6 +124,12 @@
     .navbar .navlinks ul li.active a {
         color: black;
         font-size: 1.5rem;
+    }
+    .navbar .navlinks ul li a {
+        transition: all 0.3s ease 0s;
+    }
+    .navbar .navlinks ul li a:hover {
+        color: greenyellow;
     }
     .navbar .navlinks ul li {
         margin: 25px 0;
