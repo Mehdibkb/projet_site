@@ -16,12 +16,13 @@
     }
     .navbar {
         position: absolute ;
-        padding: 50px;
+        padding: 10px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         width: 100%;
         box-sizing: border-box;
+        background: #222;
     
     }
     .navbar a {
