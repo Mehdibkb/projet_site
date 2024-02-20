@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    }
+    body {
+        font-family: 'Poppins',sans-serif;
+    
+    }
+    header{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("./image/histoirepc.jpg");
+        background-size: cover;
+    }
+    .navbar {
+        position: absolute ;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        box-sizing: border-box;
+        background: #222;
+    
+    }
+    .navbar .navlinks ul li a {
+        color: white;
+        transition: all 0.3s ease 0s;
+    }
+    .navbar .navlinks ul li a:hover {
+        color: greenyellow;
+    }
+    /* .navbar .animationnavbar{
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: 0;
+        background: #1abc9c;
+        width:122px;
+        border-radius: 8px;
+    } */
+    /* .navlinks ul li:nth-child(1) a{
+        width: 100px;
+    } */
+    .navbar a {
+        /* color: white; */
+        text-transform: uppercase;
+        position: relative;
+        z-index : 1;
+    }
+    .navbar .logo {
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+    }
+    .navbar .menuburger {
+        display: none;
+        position: absolute;
+        right: 50px;
+        top: 50px;
+        width: 35px;
+    }
+    .navbar .navlinks ul {
+        display: flex;
+    }
+    .navbar .navlinks ul li {
+        margin: 0 25px;
+    }
+    .navbar .navlinks ul li.active a {
+        /* color: white; */
+        font-weight: 700;
+    }
+    @media screen and (max-width: 700px) {
+        header{
+            height: 100vh;
+            width: 100vw;
+            background-image: url("./image/histoire.jpg");
+            background-size: cover;
+        }
+        .navbar {
+            padding: 0px;
+        }
+        /* .navbar .animationnavbar{
+            position: absolute;
+            height: 0%;
+            top: 0;
+            z-index: 0;
+            background: #1abc9c;
+            width:122px;
+            border-radius: 8px;
+        } */
+        .navbar .logo {
+            position: absolute;
+            top : 50px;
+            left : 50px;
+            color: black;
+        }
+        .navlinks{
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgb(255, 255, 255 , 0.20);
+        backdrop-filter: blur(7px);
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+    .navlinks.mobile-menu{
+        margin-left: 0;
+    }
+    .navbar a {
+        color: black;
+    }
+    .navlinks ul {
+        display: flex;
+        flex-direction: column;
+    } 
+    .navbar .navlinks ul li.active a {
+        color: black;
+        font-size: 1.5rem;
+    }
+    .navbar .navlinks ul li a {
+        transition: all 0.3s ease 0s;
+    }
+    .navbar .navlinks ul li a:hover {
+        color: greenyellow;
+    }
+    .navbar .navlinks ul li {
+        margin: 25px 0;
+    }
+    .navbar .menuburger {
+        display: block;
+    
+    }
+}
+/* .grandmoonstre {
+    display: flex;
+    flex-direction: column;
+}
+
+.petitmoonstre {
+    display: flex;
+    flex-direction: column;
+} */
