@@ -118,3 +118,35 @@ function grandmonstre_location(data) {
   monstreDiv8.appendChild(heading);
 }
 }
+// ajouter des textes en utilisant le javascript
+let petit_monstre_name = document.querySelector("#pmonstre_nom") ;
+let ul_pnom=document.createElement("ul");
+
+let pmonstreName=document.createElement("li");
+pmonstreName.appendChild(document.createTextNode("Name"))
+ul_pnom.appendChild(pmonstreName)
+petit_monstre_name.appendChild(ul_pnom)
+
+let petit_monstre_type = document.querySelector("#pmonstre_type") ;
+const ul_ptype=document.createElement("ul");
+
+const pmonstreType=document.createElement("li");
+pmonstreType.appendChild(document.createTextNode("Type"))
+ul_ptype.appendChild(pmonstreType)
+petit_monstre_type.appendChild(ul_ptype)
+
+let petit_monstre_espece = document.querySelector("#pmonstre_espece") ;
+const ul_pespece=document.createElement("ul");
+
+const pmonstreespece=document.createElement("li");
+pmonstreespece.appendChild(document.createTextNode("Espece"))
+ul_pespece.appendChild(pmonstreespece)
+petit_monstre_espece.appendChild(ul_pespece)
+
+let petit_monstre_location = document.querySelector("#pmonstre_location") ;
+const ul_plocation =document.createElement("ul");
+
+const pmonstrelocation=document.createElement("li");
+pmonstrelocation.appendChild(document.createTextNode("Location"))
+ul_plocation.appendChild(pmonstrelocation)
+petit_monstre_location.appendChild(ul_plocation)
