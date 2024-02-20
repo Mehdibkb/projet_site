@@ -6,7 +6,7 @@
     }
     body {
         font-family: 'Poppins',sans-serif;
-    
+        background-color: beige;
     }
     header{
         height: 100vh;
@@ -39,20 +39,7 @@
     .navbar .navlinks ul li a:hover {
         color: greenyellow;
     }
-    /* .navbar .animationnavbar{
-        position: absolute;
-        height: 100%;
-        top: 0;
-        z-index: 0;
-        background: #1abc9c;
-        width:122px;
-        border-radius: 8px;
-    } */
-    /* .navlinks ul li:nth-child(1) a{
-        width: 100px;
-    } */
     .navbar a {
-        /* color: white; */
         text-transform: uppercase;
         position: relative;
         z-index : 1;
@@ -76,7 +63,6 @@
         margin: 0 25px;
     }
     .navbar .navlinks ul li.active a {
-        /* color: white; */
         font-weight: 700;
     }
     @media screen and (max-width: 700px) {
@@ -89,15 +75,6 @@
         .navbar {
             padding: 0px;
         }
-        /* .navbar .animationnavbar{
-            position: absolute;
-            height: 0%;
-            top: 0;
-            z-index: 0;
-            background: #1abc9c;
-            width:122px;
-            border-radius: 8px;
-        } */
         .navbar .logo {
             position: absolute;
             top : 50px;
@@ -143,15 +120,6 @@
     }
     .navbar .menuburger {
         display: block;
-    
     }
 }
-/* .grandmoonstre {
-    display: flex;
-    flex-direction: column;
-}
 
-.petitmoonstre {
-    display: flex;
-    flex-direction: column;
-} */

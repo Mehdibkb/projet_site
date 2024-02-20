@@ -6,6 +6,7 @@
     }
     body {
         font-family: 'Poppins',sans-serif;
+        background-color: beige;
     }
     p{
         margin-bottom: 1em;
@@ -142,15 +143,5 @@
     }
     .navbar .menuburger {
         display: block;
-    
     }
 }
-/* .grandmoonstre {
-    display: flex;
-    flex-direction: column;
-}
-
-.petitmoonstre {
-    display: flex;
-    flex-direction: column;
-} */
