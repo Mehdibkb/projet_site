@@ -2,14 +2,20 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch('https://mhw-db.com/weapons')
     .then(response => response.json())
     .then(data => {
-        const weaponList = document.getElementById('weaponList');
-        data.sort((a, b) => a.id - b.id); // Sort by ID
-        data.forEach(weapon => {
-            const listItem = document.createElement('li');
-            listItem.textContent = weapon.name;
-            listItem.addEventListener('click', () => showweaponInfo(weapon)); // Add click event listener
-            weaponList.appendChild(listItem);
-        });
-    })
-    .catch(error => console.error('Error fetching data:', error));
-});
+      const armes = data.sort(weapon => weapon.type);
+      console.log(armes);
+      armes_infos(data);
+    });
+    }
+    );
+
+function armes_infos(data) {
+    for(n = 0; n < 1299; n++ ){ 
+        const arme_Nom = data[n];
+        const armeDiv = document.getElementById("weaponList");
+        const weaponName = arme_Nom.name;
+        const heading = document.createElement("li");
+        heading.innerHTML = weaponName;
+        armeDiv.appendChild(heading);
+      }
+    }
