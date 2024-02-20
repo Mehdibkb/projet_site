@@ -72,6 +72,27 @@
         top : 250px;
         left: 30px;
     }
+    .petit_monstre_type {
+        position: absolute;
+        font-size: 1em;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        display: flex;
+        flex-direction: column;
+        top : 250px;
+        left: 120px;
+    }
+    .grand_monstre_type {
+        position: absolute;
+        font-size: 1em;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        top : 250px;
+        left : 640px;
+    }
     .navbar a {
         /* color: white; */
         text-transform: uppercase;
