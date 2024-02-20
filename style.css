@@ -59,8 +59,8 @@
         font-weight: bold;
         display: flex;
         flex-direction: column;
-        top : 250px;
-        left: 490px;
+        top : 370px;
+        left: 650px;
     }
     .petit_monstre{
         position: absolute;
@@ -69,8 +69,8 @@
         font-size: 1em;
         display: flex;
         flex-direction: column;
-        top : 250px;
-        left: 30px;
+        top : 370px;
+        left: 115px;
     }
     .petit_monstre_type {
         position: absolute;
@@ -79,8 +79,8 @@
         font-family: 'Poppins',sans-serif;
         display: flex;
         flex-direction: column;
-        top : 250px;
-        left: 120px;
+        top : 370px;
+        left: 220px;
     }
     .grand_monstre_type {
         position: absolute;
@@ -90,8 +90,8 @@
         font-weight: bold;
         display: flex;
         flex-direction: column;
-        top : 250px;
-        left : 640px;
+        top : 370px;
+        left : 800px;
     }
     .petit_monstre_espece {
         position: absolute;
@@ -100,8 +100,8 @@
         font-family: 'Poppins',sans-serif;
         display: flex;
         flex-direction: column;
-        top : 250px;
-        left: 180px;
+        top : 370px;
+        left: 300px;
     }
     .grand_monstre_espece{
         position: absolute;
@@ -111,8 +111,8 @@
         font-weight: bold;
         display: flex;
         flex-direction: column;
-        top : 250px;
-        left : 700px;
+        top : 370px;
+        left : 900px;
     }
     .petit_monstre_location {
         position: absolute;
@@ -121,8 +121,8 @@
         font-family: 'Poppins',sans-serif;
         display: flex;
         flex-direction: column;
-        top : 250px;
-        left: 300px;
+        top : 370px;
+        left: 450px;
     }
     .grand_monstre_location {
         position: absolute;
@@ -132,8 +132,8 @@
         font-weight: bold;
         display: flex;
         flex-direction: column;
-        top : 250px;
-        left : 850px;
+        top : 370px;
+        left : 1050px;
     }
     .navbar a {
         /* color: white; */
