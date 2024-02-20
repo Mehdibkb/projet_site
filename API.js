@@ -150,3 +150,35 @@ const pmonstrelocation=document.createElement("li");
 pmonstrelocation.appendChild(document.createTextNode("Location"))
 ul_plocation.appendChild(pmonstrelocation)
 petit_monstre_location.appendChild(ul_plocation)
+
+let grand_monstre_name = document.querySelector("#gmonstre_nom") ;
+let ul_gnom=document.createElement("ul");
+
+let gmonstreName=document.createElement("li");
+gmonstreName.appendChild(document.createTextNode("Name"))
+ul_gnom.appendChild(gmonstreName)
+grand_monstre_name.appendChild(ul_gnom)
+
+let grand_monstre_type = document.querySelector("#gmonstre_type") ;
+const ul_gtype=document.createElement("ul");
+
+const gmonstreType=document.createElement("li");
+gmonstreType.appendChild(document.createTextNode("Type"))
+ul_gtype.appendChild(gmonstreType)
+grand_monstre_type.appendChild(ul_gtype)
+
+let grand_monstre_espece = document.querySelector("#gmonstre_espece") ;
+const ul_gespece=document.createElement("ul");
+
+const gmonstreespece=document.createElement("li");
+gmonstreespece.appendChild(document.createTextNode("Espece"))
+ul_gespece.appendChild(gmonstreespece)
+grand_monstre_espece.appendChild(ul_gespece)
+
+let grand_monstre_location = document.querySelector("#gmonstre_location") ;
+const ul_glocation =document.createElement("ul");
+
+const gmonstrelocation=document.createElement("li");
+gmonstrelocation.appendChild(document.createTextNode("Location"))
+ul_glocation.appendChild(gmonstrelocation)
+grand_monstre_location.appendChild(ul_glocation)

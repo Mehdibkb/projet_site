@@ -175,6 +175,53 @@
         top : 340px;
         left: 450px;
     }
+    .nom_gmonstre {
+        position: absolute;
+        font-size: 1em;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        top : 340px;
+        left: 650px;
+
+    }
+    .type_gmonstre {
+        position: absolute;
+        font-size: 1em;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        top : 340px;
+        left: 800px;
+    }
+    .espece_gmonstre {
+        position: absolute;
+        font-size: 1em;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        top : 340px;
+        left: 900px;
+
+    }
+    .location_gmonstre {
+        position: absolute;
+        font-size: 1em;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        top : 340px;
+        left: 1050px;
+    }
+
     .navbar a {
         /* color: white; */
         text-transform: uppercase;
