@@ -105,14 +105,35 @@
     }
     .grand_monstre_espece{
         position: absolute;
-    font-size: 1em;
-    color: white;
-    font-family: 'Poppins',sans-serif;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    top : 250px;
-    left : 700px;
+        font-size: 1em;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        top : 250px;
+        left : 700px;
+    }
+    .petit_monstre_location {
+        position: absolute;
+        font-size: 1em;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        display: flex;
+        flex-direction: column;
+        top : 250px;
+        left: 300px;
+    }
+    .grand_monstre_location {
+        position: absolute;
+        font-size: 1em;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        top : 250px;
+        left : 850px;
     }
     .navbar a {
         /* color: white; */

@@ -23,9 +23,11 @@ fetch("https://mhw-db.com/monsters")
     petitmonstre_name(data)
     petitmonstre_type(data)
     petitmonstre_espece(data)
+    petitmonstre_location(data)
     grandmonstre_name(data)
     grandmonstre_type(data)
     grandmonstre_espece(data)
+    grandmonstre_location(data)
 })
 
 function petitmonstre_name(data) {
@@ -61,6 +63,17 @@ function petitmonstre_name(data) {
     monstreDiv5.appendChild(heading);
   }
   }
+  function petitmonstre_location(data) {
+    for(n = 0; n < 16 ; n++ ){ 
+    let monstre_location = data[n];
+    let monstreDiv7 = document.getElementById("petitmonstre_location");
+    //monstre location
+    let monstrelocation = monstre_location.locations[0].name;
+    let heading = document.createElement("li");
+    heading.innerHTML = monstrelocation;
+    monstreDiv7.appendChild(heading);
+  }
+  }
   function grandmonstre_name(data) {
     for(n; n < 32 ; n++ ){ 
     let monstre_Nom = data[n];
@@ -92,5 +105,16 @@ function grandmonstre_espece(data) {
   let heading = document.createElement("li");
   heading.innerHTML = monstreespece;
   monstreDiv6.appendChild(heading);
+}
+}
+function grandmonstre_location(data) {
+  for(n = 16; n < 32 ; n++ ){ 
+  let monstre_location = data[n];
+  let monstreDiv8 = document.getElementById("grandmonstre_location");
+  //monstre location
+  let monstrelocation = monstre_location.locations[0].name;
+  let heading = document.createElement("li");
+  heading.innerHTML = monstrelocation;
+  monstreDiv8.appendChild(heading);
 }
 }
