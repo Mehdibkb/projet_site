@@ -51,6 +51,27 @@
     /* .navlinks ul li:nth-child(1) a{
         width: 100px;
     } */
+    .grand_monstre{
+        position: absolute;
+        font-size: 1em;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        top : 250px;
+        left: 490px;
+    }
+    .petit_monstre{
+        position: absolute;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        top : 250px;
+        left: 30px;
+    }
     .navbar a {
         /* color: white; */
         text-transform: uppercase;
