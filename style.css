@@ -93,6 +93,27 @@
         top : 250px;
         left : 640px;
     }
+    .petit_monstre_espece {
+        position: absolute;
+        font-size: 1em;
+        color: white;
+        font-family: 'Poppins',sans-serif;
+        display: flex;
+        flex-direction: column;
+        top : 250px;
+        left: 180px;
+    }
+    .grand_monstre_espece{
+        position: absolute;
+    font-size: 1em;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    top : 250px;
+    left : 700px;
+    }
     .navbar a {
         /* color: white; */
         text-transform: uppercase;
