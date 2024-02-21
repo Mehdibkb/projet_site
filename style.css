@@ -3,25 +3,18 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
-    }
+    } /* faire un RESET pour une bonne configuration de la page*/
     html{
         background: url(image/photo_accueil_2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+} /* adapter le background image pour qu'il soit responsive*/
     body {
         font-family: 'Poppins',sans-serif;
         background-color: beige;
-    }
-    p{
-        margin-bottom: 1em;
-    }
-    h2{
-        margin-top: 1em;
-        text-indent: 5%;
-    }
+    } /*configuration type ecriture du text */
     .navbar {
         position: absolute ;
         padding: 10px;
@@ -32,11 +25,11 @@
         box-sizing: border-box;
         background: #222;
     
-    }
+    } /* configuration STYLE de la barre de navigation*/
     .navbar .navlinks ul li a {
         color: white;
         transition: all 0.3s ease 0s;
-    }
+    } /*mettre un hover du couleur greenyellow sur les liens */
     .navbar .navlinks ul li a:hover {
         color: greenyellow;
     }
@@ -50,7 +43,7 @@
         display: flex;
         top : 290px;
         left:800px;
-    }
+    }/* configuration STYLE de la balise H1 Grand Monstre*/
     .Pe_monstre {
         position: absolute;
         font-size: 1em;
@@ -61,8 +54,8 @@
         display: flex;
         top : 290px;
         left: 230px;
-    }
-    .grand_monstre{
+    } /* configuration STYLE de la balise H1 Petit Monstre*/
+    .grand_monstre_nom{
         position: absolute;
         font-size: 1em;
         color: rgb(19, 239, 251);
@@ -73,8 +66,8 @@
         flex-direction: column;
         top : 370px;
         left: 650px;
-    }
-    .petit_monstre{
+    }/* configuration STYLE des noms de grands monstre de l'API*/
+    .petit_monstre_nom{
         position: absolute;
         color: rgb(253, 90, 2);
         font-weight: bold;
@@ -84,7 +77,7 @@
         flex-direction: column;
         top : 370px;
         left: 115px;
-    }
+    }/* configuration STYLE des noms de petits monstre de l'API*/
     .petit_monstre_type {
         position: absolute;
         font-size: 1em;
@@ -95,7 +88,7 @@
         flex-direction: column;
         top : 370px;
         left: 220px;
-    }
+    }/* configuration STYLE des types de petits monstre de l'API*/
     .grand_monstre_type {
         position: absolute;
         font-size: 1em;
@@ -106,7 +99,7 @@
         flex-direction: column;
         top : 370px;
         left : 800px;
-    }
+    }/* configuration STYLE des types de grands monstre de l'API*/
     .petit_monstre_espece {
         position: absolute;
         font-size: 1em;
@@ -117,7 +110,7 @@
         flex-direction: column;
         top : 370px;
         left: 300px;
-    }
+    }/* configuration STYLE des especes de petits monstre de l'API*/
     .grand_monstre_espece{
         position: absolute;
         font-size: 1em;
@@ -128,7 +121,7 @@
         flex-direction: column;
         top : 370px;
         left : 900px;
-    }
+    }/* configuration STYLE des especes de grands monstre de l'API*/
     .petit_monstre_location {
         position: absolute;
         font-size: 1em;
@@ -139,7 +132,7 @@
         flex-direction: column;
         top : 370px;
         left: 450px;
-    }
+    }/* configuration STYLE des locations de petits monstre de l'API*/
     .grand_monstre_location {
         position: absolute;
         font-size: 1em;
@@ -150,7 +143,7 @@
         flex-direction: column;
         top : 370px;
         left : 1050px;
-    }
+    }/* configuration STYLE des locations de grands monstre de l'API*/
     .nom_pmonstre{
         position: absolute;
         color: rgb(253, 90, 2);
@@ -161,7 +154,7 @@
         flex-direction: row;
         top : 340px;
         left: 115px;
-    }
+    }/* configuration STYLE de reference nom pour petit monstre crée en JAVASCRIPT*/
     .type_pmonstre {
         position: absolute;
         color: rgb(28, 238, 45);
@@ -172,7 +165,7 @@
         flex-direction: row;
         top : 340px;
         left: 220px;
-    }
+    }/* configuration STYLE de reference pour petit monstre type crée en JAVASCRIPT*/
     .espece_pmonstre{
         position: absolute;
         color: rgb(208, 214, 8);
@@ -183,7 +176,7 @@
         flex-direction: row;
         top : 340px;
         left: 300px;
-    }
+    }/* configuration STYLE de reference especes pour petit monstre crée en JAVASCRIPT*/
     .location_pmonstre {
         position: absolute;
         color: rgb(224, 35, 35);
@@ -194,7 +187,7 @@
         flex-direction: row;
         top : 340px;
         left: 450px;
-    }
+    }/* configuration STYLE de reference location pour petits monstre crée en JAVASCRIPT*/
     .nom_gmonstre {
         position: absolute;
         font-size: 1em;
@@ -206,7 +199,7 @@
         top : 340px;
         left: 650px;
 
-    }
+    }/* configuration STYLE de reference nom pour grands monstre crée en JAVASCRIPT*/
     .type_gmonstre {
         position: absolute;
         font-size: 1em;
@@ -217,7 +210,7 @@
         flex-direction: column;
         top : 340px;
         left: 800px;
-    }
+    }/* configuration STYLE de reference type pour grands monstre crée en JAVASCRIPT*/
     .espece_gmonstre {
         position: absolute;
         font-size: 1em;
@@ -229,7 +222,7 @@
         top : 340px;
         left: 900px;
 
-    }
+    }/* configuration STYLE de reference espece pour grands monstre crée en JAVASCRIPT*/
     .location_gmonstre {
         position: absolute;
         font-size: 1em;
@@ -240,25 +233,25 @@
         flex-direction: column;
         top : 340px;
         left: 1050px;
-    }
+    }/* configuration STYLE de reference location pour grands monstre crée en JAVASCRIPT*/
 
     .navbar a {
         text-transform: uppercase;
         position: relative;
         z-index : 1;
-    }
+    }/* configuration STYLE des liens HTML */
     .navbar .logo {
         font-size: 2rem;
         font-weight: bold;
         color: white;
-    }
+    }/* configuration STYLE dU LOGO HTML */
     .navbar .menuburger {
         display: none;
         position: absolute;
         right: 50px;
         top: 50px;
         width: 35px;
-    }
+    }/* configuration EMPLACEMENT dU menu burger HTML */
     .navbar .navlinks ul {
         display: flex;
     }
@@ -280,7 +273,7 @@
             display: flex;
             top : 690px;
             left: 230px;
-        }
+        }/* Deplacer le nom grand monstre pour une page responsive */
         .nom_gmonstre {
             position: absolute;
             font-size: 1em;
@@ -292,8 +285,8 @@
             top : 725px;
             left: 95px;
     
-        }
-        .grand_monstre{
+        }/* Deplacer la reference noms des grands monstre pour une page responsive */
+        .grand_monstre_nom{
             position: absolute;
             font-size: 1em;
             color: rgb(19, 239, 251);
@@ -304,7 +297,7 @@
             flex-direction: column;
             top : 760px;
             left: 95px;
-        }
+        }/* Deplacer les données de l'API noms des grands monstre pour une page responsive */
 
         .type_gmonstre {
             position: absolute;
@@ -316,7 +309,7 @@
             flex-direction: column;
             top : 725px;
             left: 220px;
-        }
+        }/* Deplacer la reference Types des grands monstre pour une page responsive */
         .grand_monstre_type {
             position: absolute;
             font-size: 1em;
@@ -327,7 +320,7 @@
             flex-direction: column;
             top : 760px;
             left : 220px;
-        }
+        }/* Deplacer les données de l'API Type des grands monstre pour une page responsive */
         .espece_gmonstre {
             position: absolute;
             font-size: 1em;
@@ -339,7 +332,7 @@
             top : 725px;
             left: 300px;
     
-        }
+        }/* Deplacer la reference espece des grands monstre pour une page responsive */
         .grand_monstre_espece{
             position: absolute;
             font-size: 1em;
@@ -350,7 +343,7 @@
             flex-direction: column;
             top : 760px;
             left: 300px;
-        }
+        }/* Deplacer les données de l'API espece des grands monstre pour une page responsive */
         .location_gmonstre {
             position: absolute;
             font-size: 1em;
@@ -361,7 +354,7 @@
             flex-direction: column;
             top : 725px;
             left: 450px;
-        }
+        } /* Deplacer la reference location des grands monstre pour une page responsive */
         .grand_monstre_location {
             position: absolute;
             font-size: 1em;
@@ -372,16 +365,16 @@
             flex-direction: column;
             top : 760px;
             left : 450px;
-        }
+        }/* Deplacer les données de l'API location des grands monstre pour une page responsive */
         .navbar {
             padding: 0px;
-        }
+        }/* configurer la taille de la barre de navigation en mode mobile*/
         .navbar .logo {
             position: absolute;
             top : 50px;
             left : 50px;
             color: black;
-        }
+        }/* configurer style de logo en mode mobile*/
         .navlinks{
         top: 0;
         left: 0;
@@ -395,31 +388,31 @@
         justify-content: center;
         margin-left: -100%;
         transition: all 0.5s ease;
-    }
+    }/* configurer style des liens (Acceui,Maps,Histoire,Liste-Armes) en mode mobile et mettre une transition et filtrer l'arrire plan*/
     .navlinks.mobile-menu{
         margin-left: 0;
-    }
+    }/* activer la transition */
     .navbar a {
         color: black;
-    }
+    }/* configurer style des liens */
     .navlinks ul {
         display: flex;
         flex-direction: column;
-    } 
+    } /* configurer les liens en colonne */
     .navbar .navlinks ul li.active a {
         color: black;
         font-size: 1.5rem;
-    }
+    } /* configurer le STYLE des liens */
     .navbar .navlinks ul li a {
         transition: all 0.3s ease 0s;
-    }
+    }/* configurer le Hover sur les liens avec greenyellow */
     .navbar .navlinks ul li a:hover {
         color: greenyellow;
     }
     .navbar .navlinks ul li {
         margin: 25px 0;
-    }
+    }/* configurer l'emplacement des liens */
     .navbar .menuburger {
         display: block;
-    }
+    }/* afficher les liens en bloc */
 }

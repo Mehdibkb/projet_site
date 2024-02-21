@@ -8,42 +8,42 @@
     <title>Astera</title>
 </head>
 <body>
-<nav class="navbar">
+ <nav class="navbar"> <!-- creation de la barre de navigation -->
     <a href="#" class="logo">MHWORLD</a>
         <div class ="navlinks">
-            <ul>
+            <ul><!-- creation des liens de navigation -->
                 <li class="active"><a href="index.html">Accueil</a></li>
                 <li class="active"><a href="Maps.html">Maps</a></li>
                 <li class="active"><a href="Histoire.html">Histoire</a></li>
                 <li class="active"><a href="liste_armes.html">liste-armes</a></li>
             </ul>
-            <div class ="animationnavbar transition"></div>
+            <div class ="animationnavbar transition"></div><!-- creation de la classe transition du menu burger -->
         </div>
-        <img src="image/buttonmenu.webp" alt="menu burger"  class="menuburger">
+        <img src="image/buttonmenu.webp" alt="menu burger"  class="menuburger"><!-- insertion de la photo du menu burger -->
 </nav>
         <h1 class="Gr_monstre"> Grand Monstre</h1>
         <h1 class="Pe_monstre"> Petit Monstre</h1>
 
 
-        <div id = "pmonstre_nom" class="nom_pmonstre" ></div>
+        <div id = "pmonstre_nom" class="nom_pmonstre" ></div><!-- Creation d'element (Nom,TYPE,espece,location) pour une bonne réference pour les données des petits monstres et les rendre flexible pour une bonne page responsive avec une configuration CSS pour chaque div-->
         <div id = "pmonstre_type" class="type_pmonstre"></div>
         <div id = "pmonstre_espece" class="espece_pmonstre"></div>
         <div id = "pmonstre_location" class="location_pmonstre"></div>
 
 
-        <div id = "gmonstre_nom" class="nom_gmonstre"></div>
+        <div id = "gmonstre_nom" class="nom_gmonstre"></div><!-- Creation d'element (Nom,TYPE,espece,location) pour une bonne réference pour les données des grands monstres et les rendre flexible pour une bonne page responsive avec une configuration CSS pour chaque div-->
         <div id = "gmonstre_type" class="type_gmonstre"></div>
         <div id = "gmonstre_espece" class="espece_gmonstre"></div>
         <div id = "gmonstre_location" class="location_gmonstre"></div>
 
 
-        <div id="petitmonstre_nom" class="petit_monstre"></div>
+        <div id="petitmonstre_nom" class="petit_monstre_nom"></div><!-- ajout des données (Nom,TYPE,espece,location) extraites de l'API des petits monstres en mettant une configuration CSS pour chaque div -->
         <div id="petitmonstre_type" class="petit_monstre_type"></div>
         <div id="petitmonstre_espece" class="petit_monstre_espece"></div>
         <div id="petitmonstre_location" class="petit_monstre_location"></div>
 
 
-        <div id="grandmonstre_nom" class="grand_monstre"></div>
+        <div id="grandmonstre_nom" class="grand_monstre_nom"></div><!-- ajout des données (Nom,TYPE,espece,location) extraites de l'API des grands monstres en mettant une configuration CSS pour chaque div-->
         <div id="grandmonstre_type" class="grand_monstre_type"></div>
         <div id="grandmonstre_espece" class="grand_monstre_espece"></div>
         <div id="grandmonstre_location" class="grand_monstre_location"></div>
