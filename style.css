@@ -43,7 +43,7 @@
     .Gr_monstre {
         position: absolute;
         font-size: 1em;
-        color: rgba(191, 14, 235, 0.923);
+        color: rgba(55, 14, 235, 0.923);
         font-weight: bold;
         font-family: 'Poppins',sans-serif;
         font-weight: bold;
@@ -54,7 +54,7 @@
     .Pe_monstre {
         position: absolute;
         font-size: 1em;
-        color: rgba(191, 14, 235, 0.923);
+        color: rgba(55, 14, 235, 0.923);
         font-weight: bold;
         font-family: 'Poppins',sans-serif;
         font-weight: bold;
@@ -270,6 +270,109 @@
         font-weight: 700;
     }
     @media screen and (max-width: 700px) {
+        .Gr_monstre {
+            position: absolute;
+            font-size: 1em;
+            color: rgba(55, 14, 235, 0.923);
+            font-weight: bold;
+            font-family: 'Poppins',sans-serif;
+            font-weight: bold;
+            display: flex;
+            top : 690px;
+            left: 230px;
+        }
+        .nom_gmonstre {
+            position: absolute;
+            font-size: 1em;
+            color: rgb(19, 239, 251);
+            font-family: 'Poppins',sans-serif;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            top : 725px;
+            left: 95px;
+    
+        }
+        .grand_monstre{
+            position: absolute;
+            font-size: 1em;
+            color: rgb(19, 239, 251);
+            font-weight: bold;
+            font-family: 'Poppins',sans-serif;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            top : 760px;
+            left: 95px;
+        }
+
+        .type_gmonstre {
+            position: absolute;
+            font-size: 1em;
+            color: rgb(22, 245, 1);
+            font-family: 'Poppins',sans-serif;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            top : 725px;
+            left: 220px;
+        }
+        .grand_monstre_type {
+            position: absolute;
+            font-size: 1em;
+            color: rgb(22, 245, 1);;
+            font-family: 'Poppins',sans-serif;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            top : 760px;
+            left : 220px;
+        }
+        .espece_gmonstre {
+            position: absolute;
+            font-size: 1em;
+            color: rgb(255, 255, 0);
+            font-family: 'Poppins',sans-serif;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            top : 725px;
+            left: 300px;
+    
+        }
+        .grand_monstre_espece{
+            position: absolute;
+            font-size: 1em;
+            color: rgb(255, 255, 0);
+            font-family: 'Poppins',sans-serif;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            top : 760px;
+            left: 300px;
+        }
+        .location_gmonstre {
+            position: absolute;
+            font-size: 1em;
+            color: rgb(1, 192, 245);;
+            font-family: 'Poppins',sans-serif;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            top : 725px;
+            left: 450px;
+        }
+        .grand_monstre_location {
+            position: absolute;
+            font-size: 1em;
+            color: rgb(1, 192, 245);
+            font-family: 'Poppins',sans-serif;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            top : 760px;
+            left : 450px;
+        }
         header{
             background-image: url("./image/photo_accueil_2.jpg");
             background-size: cover;
