@@ -4,6 +4,13 @@
     text-decoration: none;
     list-style: none;
     }
+    html{
+        background: url(image/photo_accueil_2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
     body {
         font-family: 'Poppins',sans-serif;
         background-color: beige;
@@ -14,13 +21,6 @@
     h2{
         margin-top: 1em;
         text-indent: 5%;
-    }
-    header{
-        height: 100vh;
-        width: 100vw;
-        background-image: url("./image/photo_accueil_2.jpg");
-        background-size: cover;
-        background-position: center;
     }
     .navbar {
         position: absolute ;
@@ -43,7 +43,7 @@
     .Gr_monstre {
         position: absolute;
         font-size: 1em;
-        color: rgba(55, 14, 235, 0.923);
+        color: rgba(255, 255, 255, 0.923);
         font-weight: bold;
         font-family: 'Poppins',sans-serif;
         font-weight: bold;
@@ -54,7 +54,7 @@
     .Pe_monstre {
         position: absolute;
         font-size: 1em;
-        color: rgba(55, 14, 235, 0.923);
+        color: rgb(255, 255, 255);
         font-weight: bold;
         font-family: 'Poppins',sans-serif;
         font-weight: bold;
@@ -273,7 +273,7 @@
         .Gr_monstre {
             position: absolute;
             font-size: 1em;
-            color: rgba(55, 14, 235, 0.923);
+            color: rgb(255, 255, 255);
             font-weight: bold;
             font-family: 'Poppins',sans-serif;
             font-weight: bold;
@@ -372,10 +372,6 @@
             flex-direction: column;
             top : 760px;
             left : 450px;
-        }
-        header{
-            background-image: url("./image/photo_accueil_2.jpg");
-            background-size: cover;
         }
         .navbar {
             padding: 0px;
