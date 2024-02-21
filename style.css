@@ -20,6 +20,7 @@
         width: 100vw;
         background-image: url("./image/photo_accueil_2.jpg");
         background-size: cover;
+        background-position: center;
     }
     .navbar {
         position: absolute ;
@@ -39,18 +40,6 @@
     .navbar .navlinks ul li a:hover {
         color: greenyellow;
     }
-    /* .navbar .animationnavbar{
-        position: absolute;
-        height: 100%;
-        top: 0;
-        z-index: 0;
-        background: #1abc9c;
-        width:122px;
-        border-radius: 8px;
-    } */
-    /* .navlinks ul li:nth-child(1) a{
-        width: 100px;
-    } */
     .grand_monstre{
         position: absolute;
         font-size: 1em;
@@ -190,7 +179,7 @@
     .type_gmonstre {
         position: absolute;
         font-size: 1em;
-        color: white;
+        color: rgb(22, 245, 1);
         font-family: 'Poppins',sans-serif;
         font-weight: bold;
         display: flex;
@@ -223,7 +212,6 @@
     }
 
     .navbar a {
-        /* color: white; */
         text-transform: uppercase;
         position: relative;
         z-index : 1;
@@ -252,23 +240,11 @@
     }
     @media screen and (max-width: 700px) {
         header{
-            height: 100vh;
-            width: 100vw;
             background-image: url("./image/photo_acceuil_mobile.jpg");
-            background-size: cover;
         }
         .navbar {
             padding: 0px;
         }
-        /* .navbar .animationnavbar{
-            position: absolute;
-            height: 0%;
-            top: 0;
-            z-index: 0;
-            background: #1abc9c;
-            width:122px;
-            border-radius: 8px;
-        } */
         .navbar .logo {
             position: absolute;
             top : 50px;
