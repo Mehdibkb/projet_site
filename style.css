@@ -40,10 +40,33 @@
     .navbar .navlinks ul li a:hover {
         color: greenyellow;
     }
+    .Gr_monstre {
+        position: absolute;
+        font-size: 1em;
+        color: rgba(191, 14, 235, 0.923);
+        font-weight: bold;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+        display: flex;
+        top : 290px;
+        left:800px;
+    }
+    .Pe_monstre {
+        position: absolute;
+        font-size: 1em;
+        color: rgba(191, 14, 235, 0.923);
+        font-weight: bold;
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+        display: flex;
+        top : 290px;
+        left: 230px;
+    }
     .grand_monstre{
         position: absolute;
         font-size: 1em;
-        color: white;
+        color: rgb(19, 239, 251);
+        font-weight: bold;
         font-family: 'Poppins',sans-serif;
         font-weight: bold;
         display: flex;
@@ -53,7 +76,8 @@
     }
     .petit_monstre{
         position: absolute;
-        color: white;
+        color: rgba(235, 14, 14, 0.753);
+        font-weight: bold;
         font-family: 'Poppins',sans-serif;
         font-size: 1em;
         display: flex;
@@ -64,7 +88,8 @@
     .petit_monstre_type {
         position: absolute;
         font-size: 1em;
-        color: white;
+        color: rgb(209, 209, 9);
+        font-weight: bold;
         font-family: 'Poppins',sans-serif;
         display: flex;
         flex-direction: column;
@@ -74,7 +99,7 @@
     .grand_monstre_type {
         position: absolute;
         font-size: 1em;
-        color: white;
+        color: rgb(22, 245, 1);;
         font-family: 'Poppins',sans-serif;
         font-weight: bold;
         display: flex;
@@ -95,7 +120,7 @@
     .grand_monstre_espece{
         position: absolute;
         font-size: 1em;
-        color: white;
+        color: rgb(255, 255, 0);
         font-family: 'Poppins',sans-serif;
         font-weight: bold;
         display: flex;
@@ -116,7 +141,7 @@
     .grand_monstre_location {
         position: absolute;
         font-size: 1em;
-        color: white;
+        color: rgb(1, 192, 245);
         font-family: 'Poppins',sans-serif;
         font-weight: bold;
         display: flex;
@@ -126,7 +151,8 @@
     }
     .nom_pmonstre{
         position: absolute;
-        color: white;
+        color: rgba(235, 14, 14, 0.753);
+        font-weight: bold;
         font-family: 'Poppins',sans-serif;
         font-size: 1em;
         display: flex;
@@ -167,7 +193,7 @@
     .nom_gmonstre {
         position: absolute;
         font-size: 1em;
-        color: white;
+        color: rgb(19, 239, 251);
         font-family: 'Poppins',sans-serif;
         font-weight: bold;
         display: flex;
@@ -190,7 +216,7 @@
     .espece_gmonstre {
         position: absolute;
         font-size: 1em;
-        color: white;
+        color: rgb(255, 255, 0);
         font-family: 'Poppins',sans-serif;
         font-weight: bold;
         display: flex;
@@ -202,7 +228,7 @@
     .location_gmonstre {
         position: absolute;
         font-size: 1em;
-        color: white;
+        color: rgb(1, 192, 245);;
         font-family: 'Poppins',sans-serif;
         font-weight: bold;
         display: flex;
@@ -240,7 +266,8 @@
     }
     @media screen and (max-width: 700px) {
         header{
-            background-image: url("./image/photo_acceuil_mobile.jpg");
+            background-image: url("./image/photo_accueil_2.jpg");
+            background-size: cover;
         }
         .navbar {
             padding: 0px;
