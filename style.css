@@ -76,7 +76,7 @@
     }
     .petit_monstre{
         position: absolute;
-        color: rgba(235, 14, 14, 0.753);
+        color: rgb(253, 90, 2);
         font-weight: bold;
         font-family: 'Poppins',sans-serif;
         font-size: 1em;
@@ -88,7 +88,7 @@
     .petit_monstre_type {
         position: absolute;
         font-size: 1em;
-        color: rgb(209, 209, 9);
+        color: rgb(28, 238, 45);
         font-weight: bold;
         font-family: 'Poppins',sans-serif;
         display: flex;
@@ -110,7 +110,8 @@
     .petit_monstre_espece {
         position: absolute;
         font-size: 1em;
-        color: white;
+        color: rgb(208, 214, 8);
+        font-weight: bold;
         font-family: 'Poppins',sans-serif;
         display: flex;
         flex-direction: column;
@@ -131,7 +132,8 @@
     .petit_monstre_location {
         position: absolute;
         font-size: 1em;
-        color: white;
+        color: rgb(224, 35, 35);
+        font-weight: bold;
         font-family: 'Poppins',sans-serif;
         display: flex;
         flex-direction: column;
@@ -151,7 +153,7 @@
     }
     .nom_pmonstre{
         position: absolute;
-        color: rgba(235, 14, 14, 0.753);
+        color: rgb(253, 90, 2);
         font-weight: bold;
         font-family: 'Poppins',sans-serif;
         font-size: 1em;
@@ -162,7 +164,8 @@
     }
     .type_pmonstre {
         position: absolute;
-        color: white;
+        color: rgb(28, 238, 45);
+        font-weight: bold;
         font-family: 'Poppins',sans-serif;
         font-size: 1em;
         display: flex;
@@ -172,7 +175,8 @@
     }
     .espece_pmonstre{
         position: absolute;
-        color: white;
+        color: rgb(208, 214, 8);
+        font-weight: bold;
         font-family: 'Poppins',sans-serif;
         font-size: 1em;
         display: flex;
@@ -182,9 +186,10 @@
     }
     .location_pmonstre {
         position: absolute;
-        color: white;
+        color: rgb(224, 35, 35);
         font-family: 'Poppins',sans-serif;
         font-size: 1em;
+        font-weight: bold;
         display: flex;
         flex-direction: row;
         top : 340px;
